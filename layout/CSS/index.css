@@ -1,0 +1,48 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+.login-form{
+    width:40%;
+    background-color: #24353f; 
+    margin: 50PX AUTO;
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0);
+}
+h1{
+    color: #17a2b8; 
+    font-size: 2.5rem; 
+}
+#loginBtn{
+    color: #17a2b8; 
+    background-color:#24353f ;
+    border-color: #17a2b8;
+    
+}
+#signUpBtn{
+    color: #17a2b8; 
+    background-color:#24353f ;
+    border-color: #17a2b8;
+    
+}
+#loginBtn:hover{
+    background-color:#17a2b8;
+    color:#fff;
+}
+.form-control:focus{
+   border-color:#17a2b8 ;
+   box-shadow: none;
+   background-color: #24353f;
+   color:#fff;
+}
+.form-control {
+    
+    color: #ced4da;
+    background-color: #24353f;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+.form-control::placeholder{
+    color:#ced4dab2;
+}

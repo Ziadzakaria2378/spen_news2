@@ -1,0 +1,29 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+nav{
+    box-shadow: -5px 2px 54px -9px rgb(0, 0, 0);
+}
+h1 {
+        color: #17a2b8;
+        font-size: 2.5rem;
+        box-shadow: -5px 2px 54px -9px rgb(0 ,0 ,0);
+}
+.navbar {
+    width: 100%;
+    z-index: 2;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #ced4da
+}
+.login-form{
+    text-align: center;
+}
+#loginBtn {
+    color: #17a2b8;
+    background-color: #24353f;
+    border-color: #17a2b8;
+    
+}

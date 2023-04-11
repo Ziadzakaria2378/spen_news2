@@ -1,0 +1,498 @@
+/* body {
+  height: 6000px !important;
+  position: relative;
+} */
+/* start nav & home */
+#container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: #e9e9eb;
+  z-index: 999;
+}
+/* logo */
+
+/* .container{
+} */
+.nav-link {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 500;
+}
+.container-dropdown {
+  font-size: 17px !important;
+  color: #ffffff;
+  font-weight: 500;
+  position: relative;
+  top: 1;
+}
+.container-dropdown:hover {
+  color: #0d60dd !important;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 60px;
+}
+
+.nav-icons {
+  width: 17%;
+}
+.dropdown {
+  font-size: 20px;
+}
+
+.h-line::before {
+  content: "";
+  width: 1px;
+  height: 65px;
+  background-color: #eee;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav-color {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* .nav-search {
+  background-color: #b0b2b3 !important;
+} */
+
+/* image */
+#image {
+  position: absolute;
+  top: calc(50% - 300px);
+  right: 5%;
+  z-index: -999;
+}
+#image img {
+  height: 600px;
+  filter: drop-shadow(-140px -140px 5px rgba(0, 0, 0, 0.5));
+  transition: 0.5s;
+}
+#image img:hover {
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+}
+/* content */
+#content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  z-index: 995;
+}
+#content h2 {
+  /* sport */
+  font-size: 300px;
+  color: #165397;
+  z-index: 995;
+}
+#content:hover h2 {
+  color: #000;
+  transition: 0.5s;
+}
+/* icons */
+#icons {
+  height: 500px;
+  width: 65px;
+  position: absolute;
+  left: 0;
+  top: calc(50% - 250px);
+  background: #1c5da4;
+  border-radius: 0 60px 60px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 998;
+}
+#icons:hover {
+  background: #000;
+}
+#icons a {
+  text-decoration: none;
+  height: 40px;
+  width: 40px;
+  font-size: 23px;
+  color: #e9e9eb;
+  display: grid;
+  place-items: center;
+  margin: 30px 0;
+}
+#icons a:hover {
+  color: #1b66bb;
+}
+/* pagination */
+#pagination {
+  position: absolute;
+  bottom: 4%;
+  right: 20%;
+  z-index: 995;
+}
+#pagination a {
+  text-decoration: none;
+  color: #000;
+  font-size: 70px;
+  margin: 0 30px;
+  transition: 0.5s;
+}
+#pagination a:hover {
+  color: #165397;
+}
+/* end nav & home */
+
+
+/* start proPlayers */
+.pro{
+  margin-top: 3% !important;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  /* border-radius: 12px; */
+  flex-wrap: wrap;
+  background-image: linear-gradient(#16384c, rgb(47, 50, 95), #2f495f);
+
+}
+
+.rotate{
+    border-radius: 12px;
+}
+
+section {
+  height: 350px;
+  width: 400px;
+  background-color: #ffffff;
+
+  margin: 200px auto 0;
+  position: relative;
+
+  transition: all 0.7s;
+}
+
+.pro-img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50px;
+  top: -30px;
+
+  transition: all 0.5s;
+}
+
+section:hover .pro-img {
+  top: -150px;
+  border-radius: 50%;
+  transform: rotate(720deg);
+}
+
+.rotate-container {
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+
+  text-align: center;
+
+  opacity: 0;
+
+  transition: all 0.4s;
+
+  font-family: sans-serif;
+}
+
+section:hover .rotate-container {
+  opacity: 1;
+  
+}
+
+/* end proPlayers */
+
+/* <!-- start soccer story --> */
+.soccer{
+  background-color: rgb(219, 121, 9);
+  margin-top: 45px;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.soccerStory h2{
+  color: white;
+  font-size: 50px;
+  font-weight: bolder;
+  font-family:'Segoe UI', sans-serif;
+}
+
+.soccerStory h2::after{
+  content: "";
+  position: absolute;
+  width: 175px;
+  height: 12px;
+  background-color: #ffffff;
+  right: 590px;
+  top: 210px;
+}
+.soccerStory p{
+  color: white;
+  padding-right: 20px;
+  padding-top: 45px;
+  text-align: left;
+}
+.soccerStory button{
+  font-size: 20px;
+  width: 70%;
+}
+
+.resentNews{
+  width: 35% !important;
+  text-align: left;
+}
+.resentNews h3 {
+  padding: 25px;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.leagueTable{
+  width: 35% !important;
+  text-align: left;
+  position: relative;
+}
+
+.leagueTable h3{
+  padding: 25px;
+  font-size: xx-large;
+  font-weight: 600;
+}
+.leagueTable button{
+  background-color: #000 !important;
+  color: #eee;
+  margin: auto;
+  font-size: 20px;
+  width: 100%;
+  position: absolute;
+  top: 89%;
+}
+.leagueTable button:hover{
+  color: white;
+}
+/* <!-- END soccer story --> */
+
+/* <!-- start macth result --> */
+  
+/* <!-- END macth result --> */
+
+.cards {
+  padding: 100px 0;
+  background-color: #dedada;
+ 
+
+}
+.row-edit {
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
+  gap: 30px;
+}
+
+.card-item
+{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgb(0  0 0 /40%);
+  transition: 0.5s;
+  overflow: hidden;
+  
+}
+.card-item:hover {
+  transform: translateY(-10px);
+}
+
+.card-item img
+{
+  width: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  transition: 0.5s;
+
+  }
+  .card-item:hover img {
+      transform: scale(1.1);
+  }
+.card-info
+{
+  padding: 20px;
+}
+.card-info h4
+{
+  font-weight: bold;
+}
+.card-info p
+{
+color: #777;
+}
+.card-info .read-more
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: #777 solid 1px;
+  padding: 10px 0;
+
+}
+.card-info .read-more a{
+  display: flex;
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: bold;
+}
+.card-info .read-more i{
+  font-size: 12px;
+  
+}
+
+
+
+
+
+
+
+
+/* start footer */
+.site-footer {
+  background-color: #26272b;
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #737373;
+  margin-top: 50px;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+.site-footer hr.small {
+  margin: 20px 0;
+}
+.site-footer h6 {
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+.site-footer a {
+  color: #737373;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links li {
+  display: block;
+}
+.footer-links a {
+  color: #737373;
+  
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+.footer-links.inline li {
+  display: inline-block;
+}
+.site-footer .social-icons {
+  text-align: right;
+}
+.site-footer .social-icons a {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 6px;
+  margin-right: 0;
+  border-radius: 100%;
+  background-color: #33353d;
+}
+.copyright-text {
+  margin: 0;
+}
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+.social-icons {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.social-icons li.title {
+  margin-right: 15px;
+  text-transform: uppercase;
+  color: #96a2b2;
+  font-weight: 700;
+  font-size: 13px;
+}
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+  color: #fff;
+  background-color: #29aafe;
+}
+.social-icons.size-sm a {
+  line-height: 34px;
+  height: 34px;
+  width: 34px;
+  font-size: 14px;
+}
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+/* end footer */

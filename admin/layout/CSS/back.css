@@ -1,0 +1,46 @@
+
+
+/*start home page*/
+.home-stats .stat{
+    background-color: #eee ;
+    padding: 20px;
+    font-size: 20px;
+  color:#fff;
+    border-radius: 10px;
+
+}
+.home-stats .stat a{
+    color: #fff;
+    text-decoration: none;
+}
+.home-stats .stat a:hover{
+    text-decoration: none;
+}
+.home-stats .st-members{
+   background-color: #3498db;
+   
+}
+.home-stats .st-News{
+    background-color: #136aa4;
+}
+.home-stats .st-Massages{
+    background-color: #6c1c8e;
+}
+.home-stats .st-Advert{
+    background-color: #8e44ad;
+}
+
+
+.latest{
+    margin-top: 40px;
+}
+.panel{
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    
+}
+.panel-body{
+    background-color: #eee;
+}
+
+/*end home page*/

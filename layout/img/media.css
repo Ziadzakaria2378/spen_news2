@@ -1,0 +1,31 @@
+@media screen and (max-width: 800px) {
+    .comment h1 {
+      font-size: 50px;
+    }
+
+
+  }
+
+  @media screen and (max-width:1024px) {
+    .works-header
+    {
+        text-align: center;
+    }
+
+    .works-header h2::before
+    {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .works-header
+        {
+            width: 100%;
+        }
+
+        .scale
+        {
+            transform: scale(1);
+            
+        }
+  }

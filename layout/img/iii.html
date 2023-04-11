@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table width="200px" height="2000px" border="1px">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr><tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>
+<div class="table-responsive" >
+    <h1 style="color:#ffffff ; text-align:center;">News PAGE</h1>
+    <div class="container">
+        <table style="color:white;margin:auto;font-size:10px;"  class="table table-bordered">
+            <tr >
+                <td>#ID</td>
+                <td>type</td>
+                <td>title</td>
+                <td>Brief</td>
+                <td>photo</td>
+                <td>new</td>
+                <td>Author</td>
+                <td>user id</td>
+            </tr>
+            <?php
+                foreach($rows as $row){
+                    echo'<tr>';
+                        echo"<td>" . $row['News_id'] . "</td>" ;
+                        echo"<td>" . $row['Type'] . "</td>" ;
+                        echo"<td>" . $row['Title'] . "</td>" ;
+                        echo"<td>" . $row['Brief'] . "</td>" ;
+                        echo"<td>" . $row['Photo'] . "</td>" ;
+                        echo"<td>" . $row['New'] . "</td>" ;
+                        echo"<td>" . $row['Name_Author'] . "</td>" ;
+                        echo"<td>" . $row['user_id'] . "</td>" ;
+                        echo"<td><a href='NewsControl.php?do=Edit&newsid=" . $row["News_id"] . "'  class='btn btn-success' ><b>Edit</b></a>
+                        <a    href='?do=Delete&newsid=" . $row["News_id"] . "' class='btn btn-danger confirm'><b>Delete</b></a></td>" ;
+                    echo'</tr>';
+                }
+            ?>
+        </table>
+    </div>
+</div>
