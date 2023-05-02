@@ -175,7 +175,7 @@
     <div class="container bg-transparent PT-0 PB-5">
       <div class="card-carousel">
         <?php
-        $stmt = $con->prepare("SELECT * FROM news WHERE Type='trend' ORDER BY News_id DESC LIMIT 4  ");
+        $stmt = $con->prepare("SELECT * FROM news WHERE Type='trend' ORDER BY News_id DESC LIMIT 5  ");
         $stmt->execute();
         $rows = $stmt->fetchall();
         foreach ($rows as $row) {

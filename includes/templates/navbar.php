@@ -58,8 +58,8 @@
             </li>
             </li>
               <li class="nav-item px-2 pt-3">
-              <a class="nav-link" href="Edit.php?do=Edit&userid=<?php echo $_SESSION['ID'] ?>"> Edit profile</a>
-              </li>
+              <a class="nav-link" href="Edit.php?do=Edit&userid=<?php echo $_SESSION['ID'] ?>">Edit profile</a>
+            </li>
             </ul>
           </div>
           
