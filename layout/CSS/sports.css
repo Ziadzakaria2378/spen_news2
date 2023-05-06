@@ -116,13 +116,13 @@
   height: 40px;
   width: 40px;
   font-size: 23px;
-  color: #e9e9eb;
+  color: #e9e9eb !important;
   display: grid;
   place-items: center;
   margin: 30px 0;
 }
-#icons a:hover {
-  color: #1b66bb;
+#icons svg:hover {
+  color: #ffffff !important;
 }
 /* pagination */
 #pagination {
