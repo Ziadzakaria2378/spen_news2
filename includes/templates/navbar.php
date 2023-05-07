@@ -70,6 +70,7 @@
               <form class="d-flex" role="search" action="5ber.php" method="POST">
                 <input class="form-control me-2 nav-search" type="text" name="search" placeholder="Search" aria-label="Search" />
                 <input class="btn btn-dark text-white" name="Search" type="submit" value="Search">
+                
               </form>
             </div>
           </nav>
