@@ -99,7 +99,7 @@
   width: 65px;
   position: absolute;
   left: 0;
-  top: calc(50% - 250px);
+  top:calc(50% - 250px);
   background: #1c5da4;
   border-radius: 0 60px 60px 0;
   display: flex;
